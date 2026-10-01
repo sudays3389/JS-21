@@ -134,20 +134,16 @@ console.log(getGrade(52));
 // 35
 function countDigits(number) {
     let count = 0;
-
     if (number === 0) {
         return 1;
     }
-
     if (number < 0) {
         number = -number;
     }
-
     while (number > 0) {
         number = Math.floor(number / 10);
         count++;
     }
-
     return count;
 }
 console.log(countDigits(847291));
@@ -156,11 +152,9 @@ console.log(countDigits(847291));
 // 36
 function repeat(text, count) {
     let result = "";
-
     for (let i = 0; i < count; i++) {
         result = result + text;
     }
-
     return result;
 }
 console.log(repeat("Yo ", 6));
@@ -169,11 +163,9 @@ console.log(repeat("Yo ", 6));
 // 37
 function sumTo(n) {
     let sum = 0;
-
     for (let i = 1; i <= n; i++) {
         sum = sum + i;
     }
-
     return sum;
 }
 console.log(sumTo(12));
@@ -231,7 +223,6 @@ function isPrime(number) {
     if (number < 2) {
         return false;
     }
-
     for (let i = 2; i < number; i++) {
         if (number % i === 0) {
             return false;
@@ -254,6 +245,9 @@ function isPrime(number) {
             return false;
         }
     }
+
+
+
 
     return true;
 }
@@ -288,7 +282,6 @@ function countVowels(text) {
             count++;
         }
     }
-
     return count;
 }
 console.log(countVowels("javascript"));
@@ -331,11 +324,9 @@ console.log(capitalize("javascript"));
 // 46
 function isPalindrome(text) {
     let reverse = "";
-
     for (let i = text.length - 1; i >= 0; i--) {
         reverse = reverse + text[i];
     }
-
     if (text === reverse) {
         return true;
     } else {
@@ -352,7 +343,6 @@ function isPalindrome(text) {
     for (let i = text.length - 1; i >= 0; i--) {
         reverse = reverse + text[i];
     }
-
     if (text === reverse) {
         return true;
     } else {
