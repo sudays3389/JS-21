@@ -2,28 +2,28 @@
 function sayHello(name) {
     return "Привет, " + name + "!";
 }
-console.log(sayHello("Самир"));
+console.log(sayHello("Рустам"));
 
 
 // 22
 function cube(x) {
     return x * x * x;
 }
-console.log(cube(3));
+console.log(cube(7));
 
 
 // 23
 function average(a, b, c) {
     return (a + b + c) / 3;
 }
-console.log(average(5, 4, 6));
+console.log(average(13, 8, 21));
 
 
 // 24
 function fullName(firstName, lastName) {
     return firstName + " " + lastName;
 }
-console.log(fullName("Али", "Рахимов"));
+console.log(fullName("Давид", "Каримов"));
 
 
 // 25
@@ -31,7 +31,7 @@ function showProduct(title, price) {
     console.log(title);
     console.log(price);
 }
-showProduct("Книга", 50);
+showProduct("Телефон", 730);
 
 
 // 26
@@ -42,7 +42,7 @@ function isPositive(number) {
         return false;
     }
 }
-console.log(isPositive(5));
+console.log(isPositive(42));
 
 
 // 27
@@ -53,7 +53,7 @@ function isPositive(number) {
         return false;
     }
 }
-console.log(isPositive(-3));
+console.log(isPositive(-18));
 
 
 // 28
@@ -64,7 +64,7 @@ function isDivisible(a, b) {
         return false;
     }
 }
-console.log(isDivisible(10, 5));
+console.log(isDivisible(56, 7));
 
 
 // 29
@@ -75,21 +75,21 @@ function isDivisible(a, b) {
         return false;
     }
 }
-console.log(isDivisible(10, 3));
+console.log(isDivisible(37, 6));
 
 
 // 30
 function discountPrice(price, discount) {
     return price - price * discount / 100;
 }
-console.log(discountPrice(200, 10));
+console.log(discountPrice(850, 17));
 
 
 // 31
 function celsiusToFahrenheit(c) {
     return c * 9 / 5 + 32;
 }
-console.log(celsiusToFahrenheit(25));
+console.log(celsiusToFahrenheit(31));
 
 
 // 32
@@ -102,7 +102,7 @@ function getGrade(score) {
         return "F";
     }
 }
-console.log(getGrade(95));
+console.log(getGrade(96));
 
 
 // 33
@@ -115,7 +115,7 @@ function getGrade(score) {
         return "F";
     }
 }
-console.log(getGrade(85));
+console.log(getGrade(78));
 
 
 // 34
@@ -128,7 +128,7 @@ function getGrade(score) {
         return "F";
     }
 }
-console.log(getGrade(45));
+console.log(getGrade(52));
 
 
 // 35
@@ -150,7 +150,7 @@ function countDigits(number) {
 
     return count;
 }
-console.log(countDigits(12345));
+console.log(countDigits(847291));
 
 
 // 36
@@ -163,7 +163,7 @@ function repeat(text, count) {
 
     return result;
 }
-console.log(repeat("Hi ", 3));
+console.log(repeat("Yo ", 6));
 
 
 // 37
@@ -176,7 +176,7 @@ function sumTo(n) {
 
     return sum;
 }
-console.log(sumTo(5));
+console.log(sumTo(12));
 
 
 // 38
@@ -189,7 +189,7 @@ function factorial(n) {
 
     return result;
 }
-console.log(factorial(5));
+console.log(factorial(7));
 
 
 // 39
@@ -206,7 +206,7 @@ function maxOfThree(a, b, c) {
 
     return max;
 }
-console.log(maxOfThree(10, 25, 15));
+console.log(maxOfThree(34, 19, 47));
 
 
 // 40
@@ -223,7 +223,7 @@ function minOfThree(a, b, c) {
 
     return min;
 }
-console.log(minOfThree(10, 25, 15));
+console.log(minOfThree(29, 64, 11));
 
 
 // 41
@@ -240,7 +240,7 @@ function isPrime(number) {
 
     return true;
 }
-console.log(isPrime(17));
+console.log(isPrime(31));
 
 
 // 42
@@ -257,7 +257,7 @@ function isPrime(number) {
 
     return true;
 }
-console.log(isPrime(20));
+console.log(isPrime(42));
 
 
 // 43
@@ -270,7 +270,7 @@ function reverseString(text) {
 
     return result;
 }
-console.log(reverseString("hello"));
+console.log(reverseString("world"));
 
 
 // 44
@@ -291,7 +291,7 @@ function countVowels(text) {
 
     return count;
 }
-console.log(countVowels("hello"));
+console.log(countVowels("javascript"));
 
 
 // 45
@@ -325,7 +325,7 @@ function capitalize(text) {
 
     return text;
 }
-console.log(capitalize("hello"));
+console.log(capitalize("javascript"));
 
 
 // 46
@@ -342,7 +342,7 @@ function isPalindrome(text) {
         return false;
     }
 }
-console.log(isPalindrome("level"));
+console.log(isPalindrome("radar"));
 
 
 // 47
@@ -359,7 +359,7 @@ function isPalindrome(text) {
         return false;
     }
 }
-console.log(isPalindrome("hello"));
+console.log(isPalindrome("computer"));
 
 
 // 48
@@ -374,7 +374,7 @@ function findMax(arr) {
 
     return max;
 }
-console.log(findMax([5, 12, 8, 20]));
+console.log(findMax([17, 42, 9, 31]));
 
 
 // 49
@@ -389,7 +389,7 @@ function findMin(arr) {
 
     return min;
 }
-console.log(findMin([5, 12, 8, 20]));
+console.log(findMin([28, 13, 51, 7]));
 
 
 // 50
@@ -402,7 +402,7 @@ function sumArray(arr) {
 
     return sum;
 }
-console.log(sumArray([1, 2, 3, 4, 5]));
+console.log(sumArray([8, 15, 23, 4, 19]));
 
 
 // 51
@@ -417,7 +417,7 @@ function countEven(arr) {
 
     return count;
 }
-console.log(countEven([1, 2, 3, 4, 5, 6]));
+console.log(countEven([7, 14, 25, 32, 41, 56]));
 
 
 // 52
@@ -432,7 +432,7 @@ function countOdd(arr) {
 
     return count;
 }
-console.log(countOdd([1, 2, 3, 4, 5, 6]));
+console.log(countOdd([12, 19, 24, 37, 46, 53]));
 
 
 // 53
@@ -445,7 +445,7 @@ function averageArray(arr) {
 
     return sum / arr.length;
 }
-console.log(averageArray([10, 20, 30, 40, 50]));
+console.log(averageArray([14, 27, 35, 48, 62]));
 
 
 // 54
@@ -458,7 +458,7 @@ function multiplyAll(arr) {
 
     return result;
 }
-console.log(multiplyAll([2, 3, 4]));
+console.log(multiplyAll([4, 7, 3]));
 
 
 // 55
@@ -473,7 +473,7 @@ function filterEven(arr) {
 
     return result;
 }
-console.log(filterEven([1, 2, 3, 4, 5, 6]));
+console.log(filterEven([9, 16, 23, 38, 45, 72]));
 
 
 // 56
@@ -488,8 +488,9 @@ function getNames(users) {
 }
 
 console.log(getNames([
-    { name: "Али" },
-    { name: "Самир" }
+    { name: "Рустам" },
+    { name: "Фарид" },
+    { name: "Марат" }
 ]));
 
 
@@ -503,9 +504,10 @@ function findByName(users, name) {
 }
 
 console.log(findByName([
-    { name: "Али" },
-    { name: "Самир" }
-], "Самир"));
+    { name: "Данил" },
+    { name: "Фарид" },
+    { name: "Илья" }
+], "Фарид"));
 
 
 // 58
@@ -520,8 +522,9 @@ function totalPrice(products) {
 }
 
 console.log(totalPrice([
-    { name: "Книга", price: 50 },
-    { name: "Ручка", price: 10 }
+    { name: "Тетрадь", price: 35 },
+    { name: "Наушники", price: 420 },
+    { name: "Рюкзак", price: 680 }
 ]));
 
 
@@ -539,8 +542,9 @@ function getDiscountedProducts(products) {
 }
 
 console.log(getDiscountedProducts([
-    { name: "Книга", price: 50 },
-    { name: "Ноутбук", price: 800 }
+    { name: "Ручка", price: 25 },
+    { name: "Монитор", price: 950 },
+    { name: "Клавиатура", price: 180 }
 ]));
 
 
@@ -572,4 +576,4 @@ function getStatistics(numbers) {
     };
 }
 
-console.log(getStatistics([10, 20, 30, 40]));
+console.log(getStatistics([184721, 9360, 475, 83]));
